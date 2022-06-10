@@ -13,6 +13,13 @@
 </section>
 
 <section class="mainContent">
+
+    <div class="banner-name container">
+        <span class="banner">
+            CURRENT SERIES
+        </span>
+    </div>
+
     <div class="container">
         <div class="row">
             @foreach ($comics as $item)
@@ -22,6 +29,10 @@
                 </div>
             @endforeach
         </div>
+    </div>
+    <div class="more-btn">
+
+        <span class="btn">Load More</span>
     </div>
 </section>
 @endsection

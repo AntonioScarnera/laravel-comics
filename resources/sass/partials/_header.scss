@@ -1,13 +1,15 @@
 
 header {
 
-
+    background-color: white;
+    width: 100%;
+    min-width: 1200px;
     nav{
-        background-color: white;
         display: flex;
         align-items: center;
         justify-content:space-evenly;
         height:80px;
+        width: 100%;
         img{
             width: 40px;
         }
@@ -36,5 +38,6 @@ header {
     .header-line{
         background-color: #0282F9;
         height: 10px;
+        width: 100%;
     }
 }

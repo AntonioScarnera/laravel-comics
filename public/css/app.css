@@ -15,12 +15,17 @@ body {
   margin: 0 auto;
 }
 
-header nav {
+header {
   background-color: white;
+  width: 100%;
+  min-width: 1200px;
+}
+header nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   height: 80px;
+  width: 100%;
 }
 header nav img {
   width: 40px;
@@ -44,6 +49,7 @@ header nav ul li a:hover {
 header .header-line {
   background-color: #0282F9;
   height: 10px;
+  width: 100%;
 }
 
 .jumbotron {
@@ -82,4 +88,25 @@ header .header-line {
 .mainContent .container .row .col h2 {
   font-size: 12px;
   color: white;
+}
+.mainContent .banner-name .banner {
+  color: white;
+  font-weight: bold;
+  background-color: #0282F9;
+  padding: 15px 20px;
+}
+.mainContent .more-btn {
+  margin: 30px 0 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.mainContent .more-btn .btn {
+  display: block;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  background-color: #0282F9;
+  cursor: pointer;
 }
