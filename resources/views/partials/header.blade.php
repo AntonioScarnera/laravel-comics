@@ -1,5 +1,5 @@
 <header>
-    <div class="header-line">
+    <div class="header-line container">
 
     </div>
     <nav class="container">
