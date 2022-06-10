@@ -97,6 +97,7 @@ header .header-line {
 }
 .mainContent .more-btn {
   margin: 30px 0 10px 0;
+  min-width: 1200px;
   display: flex;
   justify-content: center;
 }
@@ -109,4 +110,32 @@ header .header-line {
   color: white;
   background-color: #0282F9;
   cursor: pointer;
+}
+.mainContent .referral-container {
+  width: 100%;
+  height: 100px;
+  min-width: 1200px;
+  background-color: #0282F9;
+}
+.mainContent .referral-container .referral {
+  height: 100%;
+}
+.mainContent .referral-container .referral ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 30px;
+}
+.mainContent .referral-container .referral ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+}
+.mainContent .referral-container .referral ul li img {
+  width: 30px;
+  height: 40px;
 }

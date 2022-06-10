@@ -34,5 +34,32 @@
 
         <span class="btn">Load More</span>
     </div>
+
+    <div class="referral-container">
+        <div class="container referral">
+            <ul>
+                <li>
+                    <img src="./images/buy-comics-digital-comics.png">
+                    <span>DIGITAL COMICS</span>
+                </li>
+                <li>
+                    <img src="./images/buy-comics-merchandise.png">
+                    <span>DC MERCHANDISE</span>
+                </li>
+                <li>
+                    <img src="./images/buy-comics-subscriptions.png">
+                    <span>SUBSRCIPTIONS</span>
+                </li>
+                <li>
+                    <img src="./images/buy-comics-shop-locator.png">
+                    <span>COMIC SHOP LOCATOR</span>
+                </li>
+                <li>
+                    <img src="./images/buy-dc-power-visa.svg">
+                    <span>DC POWER VISA</span>
+                </li>
+            </ul>
+        </div>
+    </div>
 </section>
 @endsection
