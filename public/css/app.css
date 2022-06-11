@@ -133,9 +133,98 @@ header .header-line {
   align-items: center;
   justify-content: center;
   gap: 15px;
+  color: white;
   cursor: pointer;
 }
 .mainContent .referral-container .referral ul li img {
   width: 30px;
   height: 40px;
+}
+
+footer {
+  min-width: 1200px;
+  height: 480px;
+  background-image: url("../images/footer-bg.jpg");
+}
+footer .footer-section {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+footer .footer-section .list-container {
+  padding: 30px 30px 0 30px;
+  flex-wrap: wrap;
+  gap: 0 30px;
+  width: 600px;
+  display: flex;
+  align-items: start;
+}
+footer .footer-section .list-container h3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+footer .footer-section .list-container ul {
+  list-style: none;
+  margin-top: 16px;
+}
+footer .footer-section .list-container ul li {
+  margin: 8px 0;
+}
+footer .footer-section .list-container ul li a {
+  color: gray;
+  text-decoration: none;
+}
+footer .footer-section .list-container ul li a:hover {
+  text-decoration: underline;
+}
+footer .footer-section .list-container .list-pie {
+  padding: 25px 0;
+}
+footer .footer-section .list-container .list-pie p {
+  color: gray;
+  font-size: 12px;
+}
+footer .footer-section .list-container .list-pie p span {
+  color: #0282F9;
+}
+footer .footer-section .big-logo {
+  background-image: url("../images/dc-logo-bg.png");
+  width: 630px;
+  height: 480px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer .footer-pie {
+  height: 150px;
+}
+footer .footer-pie .footer-pie-container {
+  padding: 0 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer-pie .footer-pie-container .footer-btn {
+  color: white;
+  border: 2px solid #0282F9;
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+footer .footer-pie .footer-pie-container .footer-btn:hover {
+  background-color: #0282F9;
+  cursor: pointer;
+}
+footer .footer-pie .footer-pie-container .footer-socials ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+footer .footer-pie .footer-pie-container .footer-socials ul li span {
+  color: #0282F9;
+  font-weight: bold;
+  font-size: 20px;
 }

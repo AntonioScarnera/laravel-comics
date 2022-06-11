@@ -1,0 +1,92 @@
+footer{
+    min-width: 1200px;
+    height: 480px;
+    background-image: url('../images/footer-bg.jpg');
+    .footer-section{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        .list-container{
+            padding: 30px 30px 0 30px;
+            flex-wrap: wrap;
+            gap: 0 30px;
+            width: 600px;
+            display: flex;
+            align-items: start;
+            h3{
+                margin-top:25px;
+                margin-bottom: 25px;
+            }
+            ul{
+                list-style: none;
+                margin-top: 16px;
+                li{
+                    margin: 8px 0;
+                    a{
+                        color:gray;
+                        text-decoration: none;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+
+                    }
+                }
+            }
+            .list-pie{
+                padding: 25px 0;
+                p{
+                    color: gray;
+                    font-size: 12px;
+                    span{
+                        color: #0282F9;
+                    }
+                }
+            }
+        }
+        .big-logo{
+            background-image: url('../images/dc-logo-bg.png');
+            width:630px;
+            height:480px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    .footer-pie{
+        height: 150px;
+        .footer-pie-container{
+            padding: 0 30px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .footer-btn{
+                color: white;
+                border: 2px solid #0282F9;
+                width: 140px;
+                height:50px;
+                text-align: center;
+                line-height: 50px;
+                &:hover{
+                    background-color: #0282F9;
+                    cursor: pointer;
+                }
+            }
+            .footer-socials{
+                ul{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    list-style:none;
+                    li{
+                        span{
+                            color:#0282F9;
+                            font-weight:bold;
+                            font-size:20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
